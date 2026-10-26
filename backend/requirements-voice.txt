@@ -1,0 +1,9 @@
+fastapi
+httpx
+pydantic>=2
+pydantic-settings
+PyJWT
+python-multipart
+faster-whisper
+piper-tts          # GPL-3.0 (see docs/ARCHITECTURE.md licensing note)
+pytest

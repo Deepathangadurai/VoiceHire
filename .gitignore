@@ -1,0 +1,48 @@
+# Environment variables
+.env
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+*.pyc
+*.pyo
+__pycache__/
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+node_modules/
+dist/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large ML model files (download separately)
+*.onnx
+*.bin
+backend/models/whisper/
+backend/models/piper/*.onnx
+
+# Build outputs
+build/
+*.egg-info/
